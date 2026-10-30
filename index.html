@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boletim Digital - 9º Ano</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Meu boletim
+
+    <div class="container">
+        <!-- Cabeçalho Principal -->
+        <header class="header">
+            <h1>Boletim Digital</h1>
+            <p class="subtitle">9º Ano | Ensino Fundamental</p>
+            <p class="student-name">Estudante: <span>Estudante Exemplo</span></p>
+        </header>
+
+        <!-- Área dos Cards de Resumo -->
+        <section class="cards-container">
+            <div class="card">
+                <h3>Média Geral</h3>
+                <p id="media-geral" class="card-value">—</p>
+            </div>
+            <div class="card">
+                <h3>Total de Faltas</h3>
+                <p id="total-faltas" class="card-value">—</p>
+            </div>
+            <div class="card">
+                <h3>Bom Desempenho</h3>
+                <p id="bom-desempenho" class="card-value">—</p>
+            </div>
+            <div class="card">
+                <h3>Precisa de Atenção</h3>
+                <p id="precisa-atencao" class="card-value">—</p>
+            </div>
+            <div class="card card-highlight">
+                <h3>Frequência Geral</h3>
+                <p id="frequencia" class="card-value">92%</p>
+                <span class="badge">Frequência adequada</span>
+            </div>
+        </section>
+
+        <!-- Tabela de Disciplinas -->
+        <section class="table-section">
+            <h2>Detalhamento por Disciplina</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>1º Tri</th>
+                            <th>2º Tri</th>
+                            <th>3º Tri</th>
+                            <th>Média</th>
+                            <th>Faltas</th>
+                            <th>Situação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-boletim">
+                        <!-- Os dados das 15 disciplinas serão inseridos aqui pelo JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <!-- Script JavaScript que fará os cálculos e preencherá a tabela -->
+    <script src="script.js"></script>
 </body>
 </html>
