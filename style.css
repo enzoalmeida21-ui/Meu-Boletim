@@ -178,4 +178,13 @@ tr:hover {
         padding: 10px 8px;
         font-size: 0.85rem;
     }
+}/* Posiciona o canvas no fundo da tela inteira */
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Garante que fique atrás dos cards e tabelas */
+    opacity: 0.25; /* Transparência para não atrapalhar a leitura do boletim */
 }
