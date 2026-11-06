@@ -1,3 +1,21 @@
+// Dados atualizados a partir da tabela fornecida
+const dadosBoletim = [
+  { disciplina: "Língua Portuguesa", tri1: "6,4", tri2: "6,4", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Matemática", tri1: "3,6", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Ciências", tri1: "8,6", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "História", tri1: "8,4", tri2: "10,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Geografia", tri1: "7,2", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Língua Inglesa", tri1: "6,0", tri2: "2,1", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Arte", tri1: "7,7", tri2: "6,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Educação Física", tri1: "6,8", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Educação Digital", tri1: "7,0", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Educação Financeira", tri1: "6,0", tri2: "60,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Rec. Aprend. Matemática", tri1: "4,8", tri2: "9,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Leitura Rec. Aprend. Lingua Portuguesa", tri1: "7,0", tri2: "9,2", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Pensamento Lógico", tri1: "6,0", tri2: "6,0", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Literatura Arte e Movimento", tri1: "6,5", tri2: "6,5", tri3: null, faltas: [0, 0, 0] },
+  { disciplina: "Práticas Experimentais", tri1: "6,0", tri2: "6,0", tri3: null, faltas: [0, 0, 0] }
+];
 /* ===================================================
    EFEITO CHUVA MATRIX (CANVAS ANIMATION)
    =================================================== */
