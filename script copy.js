@@ -1,7 +1,6 @@
 // Dados brutos padronizados do 9º Ano
 const dadosBoletim = [
 // Dados atualizados a partir da tabela fornecida
-const dadosBoletim = [
   { disciplina: "Língua Portuguesa", tri1: "6,4", tri2: "6,4", tri3: null, faltas: [0, 0, 0] },
   { disciplina: "Matemática", tri1: "3,6", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
   { disciplina: "Ciências", tri1: "8,6", tri2: "7,0", tri3: null, faltas: [0, 0, 0] },
@@ -17,6 +16,7 @@ const dadosBoletim = [
   { disciplina: "Pensamento Lógico", tri1: "6,0", tri2: "6,0", tri3: null, faltas: [0, 0, 0] },
   { disciplina: "Literatura Arte e Movimento", tri1: "6,5", tri2: "6,5", tri3: null, faltas: [0, 0, 0] },
   { disciplina: "Práticas Experimentais", tri1: "6,0", tri2: "6,0", tri3: null, faltas: [0, 0, 0] }
+];
 ];
 
 /**
